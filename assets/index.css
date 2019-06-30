@@ -1,0 +1,11 @@
+
+    #map {
+      width: 600px;
+      height: 600px;
+      border: 2px solid;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 0 5px 0px;
+      /* background-color: #5f5959; */
+    }

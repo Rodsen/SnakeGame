@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>贪吃蛇</title>
+  <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+  <input type="button" value="开始游戏" id="btn"><br>
+  使用键盘↑↓←→键控制小蛇
+  <div id="map"></div>
+  <script src="./assets/index.js"></script>
+  <script>
+    
+    document.getElementById("btn").onclick = function()
+    {
+      var gm = new Game (document.getElementById("map"))
+      gm.start()
+    }
+    
+  </script>
+</body>
+</html>
